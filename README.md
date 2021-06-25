@@ -332,7 +332,7 @@ RESULTS:
  [ 3  7 11]
  [ 4  8 12]]
 ```
-Addressing elements in the tr4ansposed matrix
+Addressing elements in the transposed matrix
 ```
 m_t = m.T
 m_t[3][1] = 200
@@ -376,22 +376,22 @@ $ export PATH="/path/to/anaconda/bin:$PATH"
 - Change Directory to your project older, e.g. `cd my_github_projects`
 - Clone the Github Project inside this folder with Git Bash (Terminal) via:
 ```
-$ git clone https://github.com/ddhartma/Deep-Reinforcement-Learning-Theory-AlphaZero.git
+$ git clone https://github.com/ddhartma/Matrix-Math-with-Numpy.git
 ```
 
 - Change Directory
 ```
-$ cd Deep-Reinforcement-Learning-Theory-AlphaZero
+$ cd Matrix-Math-with-Numpy
 ```
 
-- Create a new Python environment, e.g. alpha_zero. Inside Git Bash (Terminal) write:
+- Create a new Python environment, e.g. matrix_op. Inside Git Bash (Terminal) write:
 ```
-$ conda create --name alpha_zero
+$ conda create --name matrix_op
 ```
 
 - Activate the installed environment via
 ```
-$ conda activate alpha_zero
+$ conda activate matrix_op
 ```
 
 - Install the following packages (via pip or conda)
