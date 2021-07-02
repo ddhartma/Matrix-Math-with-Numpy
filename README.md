@@ -32,7 +32,7 @@ A short overview of important matrix operations. This repo is a useful reminder 
 - [Acknowledgments](#Acknowledgments)
 - [Further Links](#Further_Links)
 
-## Dimensions of Tensors <a name="dim"></a>
+## Dimensions of Tensors <a id="dim"></a>
 - Matrix math techniques are important for Deep Learning approaches
 - Tensors can be:
     - 0D: Scalars
@@ -46,13 +46,13 @@ A short overview of important matrix operations. This repo is a useful reminder 
 
     ![image1]
 
-## Vectors and Matrices <a name="vec_mat"></a>
+## Vectors and Matrices <a id="vec_mat"></a>
 - Schematics of Vecors and Matrices 
 
     ![image2]
 
-## Basic Numpy concepts <a name="basic_numpy"></a> 
-### Data Types and Shapes <a name="data_types"></a>
+## Basic Numpy concepts <a id="basic_numpy"></a> 
+### Data Types and Shapes <a id="data_types"></a>
 - **ndarray** objects
 - Similar to **Python lists** (but can have any number of dimensions)
 - ndarray supports **fast** math operations
@@ -60,7 +60,7 @@ A short overview of important matrix operations. This repo is a useful reminder 
 - Storage of **scalars**, **vectors**, **matrices**, or **tensors**
 - Types like **uint8**, **int8**, **uint16**, **int16**
 
-### Scalars <a name="scalars"></a>
+### Scalars <a id="scalars"></a>
 
 ```
 s = np.array(5)
@@ -75,7 +75,7 @@ RESULTS:
 8
 ```
 
-### Vectors <a name="vectors"></a>
+### Vectors <a id="vectors"></a>
 ```
 v = np.array([1,2,3])
 print(v)
@@ -89,7 +89,7 @@ RESULTS:
 [2 3]
 ```
 
-### Matrices <a name="matrices"></a>
+### Matrices <a id="matrices"></a>
 ```
 m = np.array([[1,2,3], [4,5,6], [7,8,9]])
 print(m)
@@ -105,7 +105,7 @@ RESULTS:
 6
 ```
 
-### Tensors <a name="tensors"></a>
+### Tensors <a id="tensors"></a>
 ```
 t = np.array([[[[1],[2]], [[3],[4]], [[5],[6]]],
               [[[7],[8]], [[9],[10]], [[11],[12]]], 
@@ -147,7 +147,7 @@ RESULTS:
 
 ```
 
-### Reshaping <a name="reshape"></a>
+### Reshaping <a id="reshape"></a>
 ```
 v = np.array([1,2,3,4])
 print(v)
@@ -169,7 +169,7 @@ RESULTS:
  [4]]
 ```
 
-### Elementwise operations <a name="element_wise"></a>
+### Elementwise operations <a id="element_wise"></a>
 - Scalars etc. can be manipulated elementwise
 
     ![image3]
@@ -244,7 +244,7 @@ RESULTS:
  [30 56]]
 ```
 
-### Matrix product <a name="matrix_prod"></a>
+### Matrix product <a id="matrix_prod"></a>
 - Number of columns in the left matrix must equal the number of rows in the right matrix
 - The answer matrix always has the same number of rows as the left matrix and the same number of columns as the right matrix.
 - Order matters. Multiplying A•B is not the same as multiplying B•A.
@@ -312,7 +312,7 @@ RESULTS:
 [[ 7 10]
  [15 22]]
 ```
-### Matrix transpose <a name="transpose"></a>
+### Matrix transpose <a id="transpose"></a>
 
 ![image5]
 
@@ -352,12 +352,12 @@ RESULTS:
 ```
 
 
-## Setup Instructions <a name="Setup_Instructions"></a>
+## Setup Instructions <a id="Setup_Instructions"></a>
 The following is a brief set of instructions on setting up a cloned repository.
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-### Prerequisites: Installation of Python via Anaconda and Command Line Interaface <a name="Prerequisites"></a>
+### Prerequisites: Installation of Python via Anaconda and Command Line Interaface <a id="Prerequisites"></a>
 - Install [Anaconda](https://www.anaconda.com/distribution/). Install Python 3.7 - 64 Bit
 
 - Upgrade Anaconda via
@@ -371,7 +371,7 @@ $ conda upgrade --all
 $ export PATH="/path/to/anaconda/bin:$PATH"
 ```
 
-### Clone the project <a name="Clone_the_project"></a>
+### Clone the project <a id="Clone_the_project"></a>
 - Open your Command Line Interface
 - Change Directory to your project older, e.g. `cd my_github_projects`
 - Clone the Github Project inside this folder with Git Bash (Terminal) via:
@@ -407,10 +407,10 @@ seaborn = 0.8.1
 $ conda env list
 ```
 
-## Acknowledgments <a name="Acknowledgments"></a>
+## Acknowledgments <a id="Acknowledgments"></a>
 * This project is part of the Udacity Nanodegree program 'Deep Reinforcement Learning'. Please check this [link](https://www.udacity.com) for more information.
 
-## Further Links <a name="Further_Links"></a>
+## Further Links <a id="Further_Links"></a>
 
 Git/Github
 * [GitFlow](https://datasift.github.io/gitflow/IntroducingGitFlow.html)
@@ -422,7 +422,7 @@ Docstrings, DRY, PEP8
 * [DRY](https://www.youtube.com/watch?v=IGH4-ZhfVDk)
 * [PEP 8 -- Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/)
 
-## Further Links <a name="Further_Links"></a>
+## Further Links <a id="Further_Links"></a>
 Git/Github
 * [GitFlow](https://datasift.github.io/gitflow/IntroducingGitFlow.html)
 * [A successful Git branching model](https://nvie.com/posts/a-successful-git-branching-model/)
